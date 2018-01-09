@@ -22,17 +22,19 @@ body, html {
     font-size: 25px;
 }
 h1 {
-    line-height: 1rem;
-    font-weight: 800;
     letter-spacing: .1rem;
 }
 .intro {
     font-size: 3rem;
+    font-weight: 400;
 }
 
 .name {
-
+    font-weight: 800;
   font-size: 8rem;
+  line-height: 8rem;
+  margin-top: 0;
+  margin-bottom: 10%;
 }
 
 p {
@@ -61,6 +63,15 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.logo {
+    width: 30%;
+    margin: 25px;
+}
+
+a {
+    color: white;
 }
 
 /* Style the <hr> element */
